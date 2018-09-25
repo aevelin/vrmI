@@ -1,5 +1,12 @@
 {
     "require": {
-        "silex/silex": "^2.0"
+        "silex/silex": "^2.0",
+        "twig/twig": "^2.5",
+        "doctrine/dbal": "~2.2"
+    },
+
+    "autolaod": {
+    	"psr-4": { "BookingApp\\": "src"}
+
     }
 }
